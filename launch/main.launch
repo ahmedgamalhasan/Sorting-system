@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+					<!-- another launch files -->
+	<include file="$(find sorting_system)/launch/ports.launch" />
+	<include file="$(find mrcamera)/launch/camera.launch" />
+	
+		   					
+					<!-- Nodes -->
+	<node name = "main" 		 pkg = "sorting_system" 		 type = "main.py"       output="screen"/>
+
+	
+	
+
+</launch>
